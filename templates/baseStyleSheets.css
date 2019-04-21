@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald|Open+Sans");
+body
+{
+	font-family: Open Sans;
+	margin: 20px;
+}
+input[type=text]
+{
+	font-size: 20px;
+	font-family: Open Sans;
+	border-radius: 5px;
+	height: 40px;
+	width: 200px;
+}
+input[type=submit]
+{
+	background-color: 62ea74;
+	font-family: Oswald;
+	font-size: 30px;
+	border-radius: 15px;
+	width: 100px;
+}

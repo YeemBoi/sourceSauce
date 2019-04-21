@@ -1,0 +1,18 @@
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="/pyGetCSS">
+<title>Word Finder!</title>
+<script type="text/javascript" src="/pyGetJS"></script>
+</head>
+<body onLoad="readCookie()">
+<div>
+<strong>New Feature:</strong> You can now enter question marks as Scrabble wildcards!</div>
+<form action="/results" method="POST">
+<input placeHolder="Letters go here!" name="letters" autocomplete="off" type="text">
+<br>
+Sort by length:<input type="checkbox" name="lengthSort" onClick="setCookie()">
+<br>
+<input type="submit" value="Go!">
+</form>
+</body>
+</html>
